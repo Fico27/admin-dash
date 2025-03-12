@@ -1,7 +1,9 @@
-html, body{
+html,
+body {
     margin: 0;
 }
-.container{
+
+.container {
     display: grid;
     height: 100vh;
     grid-template-columns: repeat(5, 1fr);
@@ -10,12 +12,28 @@ html, body{
 
 /* ----------------Css header styling---------------- */
 
-.header{
-
+.header {
     background: aquamarine;
     grid-column: 2 / end;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+
 }
 
+.topheader {
+    grid-row: 1/end;
+    grid-column: 1/end;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.bottomheader {
+    grid-row: 2/end;
+    grid-column: 1 /end;
+}
 
 
 /* ----------------Css header styling End---------------- */
@@ -23,7 +41,7 @@ html, body{
 
 /* ----------------Css sidebar styling---------------- */
 
-.sidebar{
+.sidebar {
     background-color: blueviolet;
     grid-column: 1;
     grid-row: 1 / end;
@@ -36,7 +54,7 @@ html, body{
 
 
 /* ----------------Css content styling---------------- */
-.content{
+.content {
     background-color: gray;
     grid-area: 2/ 2/ 6/ 6;
 }
