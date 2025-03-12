@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr)
+}
+
+/* ----------------Css header styling---------------- */
+
+.header{
+
+    background: aquamarine;
+    grid-column: 2 / end;
+}
+
+
+
+/* ----------------Css header styling End---------------- */
+
+
+/* ----------------Css sidebar styling---------------- */
+
+.sidebar{
+    background-color: blueviolet;
+    grid-column: 1;
+    grid-row: 1 / end;
+}
+
+
+
+
+/* ----------------Css sidebar styling End---------------- */
+
+
+/* ----------------Css content styling---------------- */
+.content{
+    background-color: gray;
+    grid-area: 2/ 2/ 6/ 6;
+}
+
+
+
+/* ----------------Css Content styling End---------------- */
