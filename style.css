@@ -31,7 +31,7 @@ body {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.search{
+.search {
     display: flex;
     grid-row: 0 /1;
     grid-column: 1 / 4;
@@ -39,13 +39,13 @@ body {
     justify-content: start;
 }
 
-.userinfo{
+.userinfo {
     display: flex;
     grid-row: 0/ 1;
     grid-column: 5 / -1;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .bottomheader {
@@ -56,14 +56,14 @@ body {
     grid-template-columns: repeat(6, 1fr);
 }
 
-.usergreeting{
-   display: flex;
+.usergreeting {
+    display: flex;
     grid-column: 1/4;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,8 +84,28 @@ body {
     background-color: blueviolet;
     grid-column: 1;
     grid-row: 1 / end;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
 }
 
+.logo {
+    align-self: center;
+    justify-self: center;
+}
+
+.useritems {
+
+    grid-row: 2/5;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.usersettings {
+    grid-row: 6 / -1;
+    align-self: center;
+    justify-self: center;
+}
 
 
 
