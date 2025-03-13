@@ -112,8 +112,45 @@ body {
     background-color: gray;
     grid-area: 2/ 2/ 6/ 6;
     display: grid;
-    grid-template-rows: repeat(5 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
     grid-template-columns: 3fr 1fr
 }
 
 
+.projects{
+    grid-column: 1/2;
+    display:grid;
+    /* grid-row: repeat(3, 1fr);
+    grid-column: repeat(2, 1fr); */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+.rightsidebar{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.anouncements{
+    grid-row: 1/2;
+}
+.trending {
+    grid-row: 2/3
+}
+
+.anouncements, .trending{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    /* justify-self: center; */
+    align-self: center;
+}
