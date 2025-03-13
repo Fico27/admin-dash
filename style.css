@@ -124,11 +124,12 @@ body {
     grid-column: repeat(2, 1fr); */
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .project{
     height: 200px;
-    width: 300px;
+    width: 500px;
     background-color: white;
     align-self: center;
     justify-self: center;
@@ -151,6 +152,6 @@ body {
     height: 300px;
     width: 200px;
     background-color: white;
-    /* justify-self: center; */
+    justify-self: center;
     align-self: center;
 }
