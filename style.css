@@ -95,23 +95,54 @@ body {
     align-self: center;
     justify-self: center;
 }
+.logo img {
+    padding-right: 1rem;
+    width: 40px;
+}
+.logo a {
+    
+    font-size: 2rem;
+}
 
 .useritems {
 
     grid-row: 2/5;
-    align-self: center;
-    justify-self: center;
+    /* align-self: center; */
+    justify-self: start;
 
 }
 
 .usersettings {
-    grid-row: 6 / -1;
+    grid-row: 5 / 6;
+
+}
+
+.useritems > ul >li {
+    padding: 0;
+}
+
+.useritem > div{
+    padding: .5rem 0;
     align-self: center;
-    justify-self: center;
+}
+
+.useritem > div > a > img{
+    width: 1.5rem;
+    padding-right: 1.3rem;
+    
 }
 
 
+ul{
+    list-style: none;
+   align-self: start;
+}
 
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
 
 /* ----------------Css content styling---------------- */
 .content {
