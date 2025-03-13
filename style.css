@@ -38,6 +38,9 @@ body {
     align-items: center;
     justify-content: start;
 }
+.search img {
+    width: 30px;
+}
 
 .userinfo {
     display: flex;
@@ -46,6 +49,9 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+.userinfo img:first-of-type{
+    width: 30px;
 }
 
 .bottomheader {
