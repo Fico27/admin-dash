@@ -13,9 +13,8 @@ body {
 /* ----------------Css header styling---------------- */
 
 .header {
-    background: aquamarine;
+    background: white;
     grid-column: 2 / end;
-
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(2, 1fr);
@@ -37,9 +36,18 @@ body {
     grid-column: 1 / 4;
     align-items: center;
     justify-content: start;
+    padding-left: 2rem;
 }
 .search img {
     width: 30px;
+    padding-right: 1rem;
+}
+.search input{
+    width: 600px;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: #e2e8f0;
+    border: none;
 }
 
 .userinfo {
@@ -52,6 +60,16 @@ body {
 }
 .userinfo img:first-of-type{
     width: 30px;
+
+}
+
+.userinfo p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.userinfo > * {
+    padding-left: 1.3rem;
 }
 
 .bottomheader {
@@ -65,17 +83,36 @@ body {
 .usergreeting {
     display: flex;
     grid-column: 1/4;
-    justify-content: space-evenly;
     align-items: center;
+    padding-left: 2rem;
+}
+
+ .userinfo > img {
+    border-radius: 100px;
+    width: 50px;
+}
+.usergreeting > img{
+    border-radius: 100px;
+    width: 100px;
 }
 
 .nav {
+    margin-right: 3rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     grid-column: 5/7;
 }
 
+button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #1992d4;
+    color: white;
+    padding: .8rem 2.3rem;
+    border-radius: 20px;
+    border: none;
+}
 
 
 
@@ -84,11 +121,11 @@ body {
 /* ----------------Css sidebar styling---------------- */
 
 .sidebar {
-    background-color: blueviolet;
+    background-color: #1992d4;
     grid-column: 1;
     grid-row: 1 / end;
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 
 .logo {
@@ -108,13 +145,13 @@ body {
 
     grid-row: 2/5;
     /* align-self: center; */
-    justify-self: start;
+    align-self: start;
 
 }
 
 .usersettings {
     grid-row: 5 / 6;
-
+    align-content: start;
 }
 
 .useritems > ul >li {
@@ -146,7 +183,7 @@ a{
 
 /* ----------------Css content styling---------------- */
 .content {
-    background-color: gray;
+    background-color: #e2e8f0;
     grid-area: 2/ 2/ 6/ 6;
     display: grid;
     /* grid-template-rows: repeat(5, 1fr); */
