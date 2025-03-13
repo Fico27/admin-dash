@@ -87,6 +87,14 @@ body {
     padding-left: 2rem;
 }
 
+.usergreeting p {
+    font-weight: bold;
+}
+
+.usergreeting>p>span{
+    font-size: 2rem;
+}
+
  .userinfo > img {
     border-radius: 100px;
     width: 50px;
