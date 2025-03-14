@@ -314,24 +314,37 @@ a {
 }
 
 
-/* .rightsidebar{
+.rightsidebar{
     grid-column: 2/3;
+
     display: grid;
-    grid-template-rows: 1fr 1fr;
-} */
+    grid-template-rows: 50px 1fr 50px 1fr;
+}
+
+.rightsidebar h4{
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    /* padding-bottom: 1rem; */
+}
 
 .anouncements {
-    grid-row: 1/2;
+    grid-row: 2/3;
+    border-radius: 10px;
+}
+
+.anouncements div{
+    text-align: left;
 }
 
 .trending {
-    grid-row: 2/3
+    grid-row: 4/5;
+    border-radius: 10px;
 }
 
 .anouncements,
 .trending {
-    height: 300px;
-    width: 200px;
+    height: 95%;
+    width: 80%;
     background-color: white;
     justify-self: center;
     align-self: center;
