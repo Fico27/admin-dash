@@ -249,6 +249,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .project2 {
@@ -259,6 +260,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .project3 {
@@ -269,6 +271,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .project4 {
@@ -279,6 +282,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .project5 {
@@ -289,6 +293,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .project6 {
@@ -299,6 +304,7 @@ a {
     background-color: white;
     align-self: center;
     justify-self: center;
+    border-left: 10px solid orange; 
 }
 
 .icons{
@@ -319,15 +325,20 @@ a {
 
     display: grid;
     grid-template-rows: 50px 1fr 50px 1fr;
+    padding-bottom: 25px;
 }
 
 .rightsidebar h4{
     font-size: 1.5rem;
     padding-left: 1.5rem;
+    margin-bottom: 0;
     /* padding-bottom: 1rem; */
 }
 
+
 .anouncements {
+    /* display: flex;
+    flex-direction: column; */
     grid-row: 2/3;
     border-radius: 10px;
 }
@@ -336,15 +347,32 @@ a {
     text-align: left;
 }
 
+.anouncements h4{
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+}
+
+hr{
+    color: #e2e8f0;
+    width: 80%;
+}
+.anouncements p{
+    padding: 0 1.5rem;
+    border-bottom: green;
+    margin-top: 2px;
+    color: grey;
+}
+
 .trending {
     grid-row: 4/5;
     border-radius: 10px;
 }
 
+.trendingheader{}
 .anouncements,
 .trending {
     height: 95%;
-    width: 80%;
+    width: 90%;
     background-color: white;
     justify-self: center;
     align-self: center;
