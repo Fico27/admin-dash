@@ -1,11 +1,12 @@
 html,
 body {
     margin: 0;
+    height: 100vh;
 }
 
 .container {
     display: grid;
-    height: 100vh;
+    
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr)
 }
@@ -157,14 +158,14 @@ button {
 
 .useritems {
 
-    grid-row: 2/5;
-    /* align-self: center; */
+    grid-row: 2/4;
+
     align-self: start;
 
 }
 
 .usersettings {
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     align-content: start;
 }
 
@@ -214,7 +215,8 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 1fr 1fr 1fr;
     gap: 15px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+
 }
 
 .projectheader {
@@ -222,14 +224,22 @@ a {
     padding-left: 1.5rem;
 }
 
-.project {
+/* .project {
     height: 200px;
     width: 60%;
     background-color: white;
     align-self: center;
     justify-self: center;
+} */
+
+.projectcard{
+    
+    border-radius: 10px;
 }
 
+.projectcard > div{
+    padding: 1rem;
+}
 
 .project1 {
     grid-row: 2/3;
@@ -290,6 +300,19 @@ a {
     align-self: center;
     justify-self: center;
 }
+
+.icons{
+    display: flex;
+     justify-content: end;
+     position: relative;
+     top: 2.5rem;
+ 
+}
+.icons > img{
+    width: 30px;
+    padding-right: 15px;
+}
+
 
 /* .rightsidebar{
     grid-column: 2/3;
