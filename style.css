@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -153,16 +154,12 @@ button {
 }
 
 .logo a {
-
     font-size: 2rem;
 }
 
 .useritems {
-
     grid-row: 2/4;
-
     align-self: start;
-
 }
 
 .usersettings {
@@ -185,7 +182,6 @@ button {
 
 }
 
-
 ul {
     list-style: none;
     align-self: start;
@@ -202,12 +198,9 @@ a {
     background-color: #e2e8f0;
     grid-area: 2/ 2/ 6/ 6;
     display: grid;
-    /* grid-template-rows: 50px 1fr 1fr 1fr 1fr; */
     grid-template-columns: 3fr 1fr;
-    /* gap: 10px; */
 
 }
-
 
 .projects {
     grid-column: 1/2;
@@ -224,14 +217,6 @@ a {
     font-size: 1.5rem;
     padding-left: 1.5rem;
 }
-
-/* .project {
-    height: 200px;
-    width: 60%;
-    background-color: white;
-    align-self: center;
-    justify-self: center;
-} */
 
 .projectcard {
 
@@ -332,10 +317,8 @@ a {
     padding-right: 15px;
 }
 
-
 .rightsidebar {
     grid-column: 2/3;
-
     display: grid;
     grid-template-rows: 50px 1fr 50px 1fr;
     padding-bottom: 25px;
@@ -345,13 +328,9 @@ a {
     font-size: 1.5rem;
     padding-left: 1.5rem;
     margin-bottom: 0;
-    /* padding-bottom: 1rem; */
 }
 
-
 .anouncements {
-    /* display: flex;
-    flex-direction: column; */
     grid-row: 2/3;
     border-radius: 10px;
 }
@@ -364,8 +343,6 @@ a {
     font-size: 1.3rem;
     padding: 0 1.5rem;
 }
-
-
 
 hr {
     color: #e2e8f0;
@@ -413,7 +390,6 @@ hr {
     padding: 0 20px;
     width: 70px;
 }
-
 
 .sideicon {
     filter: brightness(0) invert(1);
